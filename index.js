@@ -2,7 +2,7 @@ const Page = require("./_layout/Default");
 
 module.exports = class extends Page {
     constructor(){
-        super({title:"Home", sName:"Richard Hildred"});
+        super({title:"Home", sName:"Lakshan Gunajothy"});
     }
     render(sPage) {
         return `
