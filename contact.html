@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en" class="contact">
     <head>
@@ -22,7 +21,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href=".">Portfolio of Richard Hildred</a>
+        <a class="navbar-brand" href=".">Portfolio of Lakshan Gunajothy</a>
     </div>
     <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
@@ -31,11 +30,13 @@
         </ul>
     </div>
 </div>
-        
-    
         <p>Contact page here.</p>
-
-        
+        <form id="contact-form" action = "https://shrouded-river-57828.herokuapp.com/send/" method="POST">
+            <input type="text" name="name" placeholder="name" required /><br />
+            <input type="email" name="email" placeholder="email" type="email" required /><br />
+            <textarea name="message" placeholder="Enter your message here" ></textarea><br />
+            <button type="submit">Send Message</button>
+        </form>
     </main>
     
 <footer>
@@ -47,4 +48,3 @@
         
     </body>
 </html>
-        
