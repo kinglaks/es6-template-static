@@ -7,7 +7,7 @@ module.exports = class extends Page {
     render(sPage) {
         return `
         ${this.requireMarked('_pages/contact.md')}
-        <form action="http://localhost:3002/send" method="POST">
+        <form action="https://shrouded-river-57828.herokuapp.com/send/" method="POST">
             <div class="form-group">
                 <!-- give inputs the class form-control -->
                 <label>Name: <input name="name" placeholder="name" class="form-control" /></label>
